@@ -1,9 +1,8 @@
-
-#baaabbacddc
-
+#input:
+    #baaabbacddc
+#output:
+    #b
 notes = list(input())
-
-i =1
 
 count = 1
 while count > 0:
@@ -15,5 +14,4 @@ while count > 0:
             count+=1
             break
 
-str = ''
-print(str.join(notes))
+print(''.join(notes))
